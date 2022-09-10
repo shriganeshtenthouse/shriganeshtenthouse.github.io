@@ -46,6 +46,7 @@ select {
     position: relative;
     display: inline-block;
     width: 8rem;
+    height: 2.5rem;
     font-size: 1.3rem;
     vertical-align: center;
     overflow: hidden;
@@ -138,4 +139,27 @@ select {
     color: white;
     font-size: 1rem;
     font-weight: 300;
+}
+
+
+@media screen and (max-width: 540px) {
+    body{
+        padding: 2rem;
+    }
+    .main-heading{
+        font-size: 2rem;
+    }
+    .calc-container{
+        width: 100%;
+    }
+    label{
+        width: 3rem;
+    }
+    .size-input,
+    .length-input,
+    .width-input{
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }
