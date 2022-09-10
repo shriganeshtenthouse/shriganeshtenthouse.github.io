@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #274c77;
+}
+.main-heading{
+    text-align: center;
+    color: #6096ba;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.calc-container{
+    width: 400px;
+    min-height: 500px;
+    backdrop-filter: blur(10px);
+    margin: auto;
+    background-color: #6096ba;
+    /* border: 2px solid ; */
+    border-radius: 0.5rem;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#003049;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.3);
+    border: 2px solid #274c77;
+}
+
+.input-container{
+    text-align:center;
+}
+label{
+    width: 5rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+select {
+    position: relative;
+    display: inline-block;
+    width: 8rem;
+    font-size: 1.3rem;
+    vertical-align: center;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 0.3rem;
+    outline: none;
+    border: white;
+    color: white;
+    font-weight: 300;
+    background: #274c77;
+}
+.size-input{
+    margin-bottom: 1.5rem;
+    position: relative;
+    appearance: none;
+}
+
+.size-input input{
+    outline: none;
+    width: 5rem;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.length-input{
+    margin-bottom: 1.5rem;
+}
+.length-input input,
+.width-input input{
+
+    width: 70%;
+    padding: 0.2rem;
+    outline: none;
+    outline-style: none;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    border: 2px solid white;
+    color: #274c77;
+}
+
+.width-input{
+    margin-bottom: 2rem;
+}
+
+.length-input input:focus,
+.width-input input:focus{
+    border: 1px solid #274c77;
+}
+
+
+.btn-input{
+    text-align: center;
+}
+
+.btn-calc{
+    background-color: #274c77;
+    color: #e7ecef;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 8px 0 rgba(0,0,0,0.4);
+    margin-bottom: 2rem;
+}
+.btn-add{
+    background-color: #25a18e;
+    color: #e7ecef;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 8px 0 rgba(0,0,0,0.4);
+
+}
+
+.style-table thead{
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.style-table thead th{
+    padding: 0.5rem;
+}
+
+.style-table tbody td{
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+}
