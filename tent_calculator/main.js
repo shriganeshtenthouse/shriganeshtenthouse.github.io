@@ -78,7 +78,7 @@ btn.addEventListener("click", ()=>{
 
 
 
-fetch('https://crossorigin.me/https://sgthgallery.blogspot.com/p/original.html')
+fetch('https://sgthgallery.blogspot.com/p/original.html')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
